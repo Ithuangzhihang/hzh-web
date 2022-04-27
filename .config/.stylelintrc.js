@@ -7,14 +7,14 @@ module.exports = {
   rules: {
     'selector-class-pattern': [
       // 命名规范 -
-      '^(([A-Z]|[a-z])[a-z0-9]*)(-[a-z0-9]+)*$',
+      '^([A-Z][a-z0-9]+)+',
       {
-        message: '首字母可大写的横线命名',
+        message: '驼峰命名',
       },
     ],
     'keyframes-name-pattern': [
       // 命名规范 -
-      '^(([A-Z]|[a-z])[a-z0-9]*)(-[a-z0-9]+)*$',
+      '^([A-Z][a-z0-9]+)+',
       {
         message: '首字母可大写的横线命名',
       },
