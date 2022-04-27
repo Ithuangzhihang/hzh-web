@@ -9,6 +9,7 @@ type Options = {
   fix?: boolean;
   logWarnings?: boolean;
   logErrors?: boolean;
+  customSyntax?: string;
 };
 
 // Integrate stylelint with vite
@@ -17,6 +18,7 @@ export default function viteStylelintPlugin(
   opts: Options = {
     // default disable autofix, because we use vscode stylelint extension to autofix
     fix: false,
+    customSyntax: "postcss-less",
   },
 ): PluginOption {
   const filter = createFilter(/.*\.(css|less|scss|sass|postcss|vue)/, /node_modules/);
@@ -24,6 +26,7 @@ export default function viteStylelintPlugin(
     fix: opts.fix,
     configFile: path.resolve(__dirname, '../.config/.stylelintrc.js'),
     ignorePath: path.resolve(__dirname, '../.config/.stylelintignore'),
+    customSyntax: opts.customSyntax
   };
 
   return {
