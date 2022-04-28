@@ -12,19 +12,20 @@ module.exports = {
         message: '驼峰命名',
       },
     ],
-    'keyframes-name-pattern': [
-      // 命名规范 -
-      '^([A-Z][a-z0-9]+)+',
-      {
-        message: '首字母可大写的横线命名',
-      },
-    ],
     'block-no-empty': null,
     'no-empty-source': null,
     'selector-pseudo-class-no-unknown': [
       true,
       {
         ignorePseudoClasses: ['global'],
+      },
+    ],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          "/^My/", "/^Custom/"
+        ]
       },
     ],
   },
