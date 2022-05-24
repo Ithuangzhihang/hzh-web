@@ -1,5 +1,6 @@
 import './App.css';
 
+import { Button } from 'antd';
 import { useState } from 'react';
 import { RecoilRoot } from 'recoil';
 
@@ -15,9 +16,9 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <p>Hello Vite + React!</p>
           <p>
-            <button type="button" onClick={() => setCount((count) => count + 1)}>
+            <Button type="primary" onClick={() => setCount((count) => count + 1)}>
               count is: {count}
-            </button>
+            </Button>
           </p>
           <p>
             Edit <code>App.tsx</code> and save to test HMR updates.
