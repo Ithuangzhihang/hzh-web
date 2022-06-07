@@ -7,9 +7,9 @@ module.exports = {
   rules: {
     'selector-class-pattern': [
       // 命名规范 -
-      '^([A-Z][a-z0-9]+)+',
+      '(^([A-Z][a-z0-9]+)+)|(-([a-z]))',
       {
-        message: '驼峰命名',
+        message: '驼峰命名或短横线命名',
       },
     ],
     'block-no-empty': null,
