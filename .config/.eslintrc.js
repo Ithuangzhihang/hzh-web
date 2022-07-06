@@ -28,8 +28,8 @@ module.exports = {
   rules: {
     'no-unused-vars': 'off',
     'no-undef': 'off',
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': 'off',
+    'simple-import-sort/exports': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
@@ -58,7 +58,7 @@ module.exports = {
     // 不以新行开始的块前面要不要有空格
     'space-before-blocks': 2,
     // 引号类型
-    quotes: [1, 'single'],
+    // quotes: [1, 'single'],
     // 禁止出现未使用过的变量
     'no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars': [2],
@@ -72,7 +72,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/jsx-props-no-spreading': [0],
     'max-classes-per-file': [2, 2],
-    'no-console': "warn",
+    'no-console': 'warn',
     'max-len': ['error', { code: 100, ignoreTemplateLiterals: true }],
     'no-param-reassign': ['error', { props: false }],
     'react/prop-types': [0],

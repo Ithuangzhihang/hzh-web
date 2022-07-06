@@ -8,12 +8,15 @@ import { apolloClient } from '@/apis/client';
 import ErrorBoundary from '@/components/ErrorBoundary';
 
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ErrorBoundary>
       <ApolloProvider client={apolloClient}>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </ApolloProvider>
     </ErrorBoundary>
   </React.StrictMode>,

@@ -17,8 +17,8 @@ module.exports = {
         'chore', // 对构建或者辅助工具的更改
       ],
     ],
-    'type-empty': [2, 'never'],
-    'subject-empty': [2, 'never'],
+    // 'type-empty': [2, 'never'],
+    // 'subject-empty': [2, 'never'],
     'subject-full-stop': [0, 'never'],
     'subject-case': [0, 'never'],
   },

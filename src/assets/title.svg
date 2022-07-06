@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="624.99805mm"
+   height="49.265446mm"
+   viewBox="0 0 624.99805 49.265446"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="title.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.16"
+     inkscape:cx="3703.125"
+     inkscape:cy="40.625"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient850">
+      <stop
+         style="stop-color:#009df4;stop-opacity:1;"
+         offset="0"
+         id="stop846" />
+      <stop
+         style="stop-color:#009df4;stop-opacity:0;"
+         offset="1"
+         id="stop848" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="perspective-envelope"
+       up_left_point="55.074141,74.054644"
+       up_right_point="92.43333,74.054644"
+       down_left_point="55.074141,123.32009"
+       down_right_point="92.43333,123.32009"
+       id="path-effect25196"
+       is_visible="true"
+       lpeversion="1"
+       deform_type="perspective"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       overflow_perspective="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient850"
+       id="linearGradient852"
+       x1="-175.13267"
+       y1="50.652818"
+       x2="449.86536"
+       y2="50.652818"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(175.13267,-26.020095)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:52.9167px;line-height:1.25;font-family:sans-serif;fill:#009df4;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-181.69434"
+       y="66.765953"
+       id="text28052"><tspan
+         sodipodi:role="line"
+         id="tspan28050"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STXingkai;-inkscape-font-specification:STXingkai;fill:#009df4;fill-opacity:1;stroke-width:0.264583"
+         x="-181.69434"
+         y="66.765953">痛风智慧门诊信息管理系统</tspan></text>
+  </g>
+</svg>
