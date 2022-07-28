@@ -54,7 +54,7 @@ const Login = () => {
             avatar: response.data.UserInfo.avatar,
             gmtCreate: response.data.UserInfo.gmtCreate,
             gmtModified: response.data.UserInfo.gmtModified,
-            mobile: response.data.UserInfo.gmtModified,
+            mobile: response.data.UserInfo.mobile,
             nickname: response.data.UserInfo.nickname,
             sex: response.data.UserInfo.sex,
           };

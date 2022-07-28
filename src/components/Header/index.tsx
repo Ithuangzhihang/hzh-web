@@ -12,11 +12,12 @@ const Headers = function () {
 
   useEffect(() => {
     console.log('head', userInfo);
+    console.log('userInfo.mobile', userInfo.mobile);
   });
 
   return (
     <div>
-      {userInfo.mobile !== '' ? (
+      {userInfo.mobile === '' ? (
         <Menu mode="horizontal" defaultSelectedKeys={['login']}>
           <Row justify="center">
             <Col span={80}>
